@@ -17,14 +17,16 @@
         <p class="timer">Time: 0</p>
     </header>
 
+    <!-- The default webpage that the user is first presented with when they first visit the webpage -->
     <main class="default">
-        <p class="main-heading">Miscellaneous History Challenge</p>
+        <p class="main-heading">Miscellaneous Military History Challenge</p>
         <P>This is the text to go here</P>
         <div class="start-button">
             <button id="start-button">Start quiz</button>
         </div>
     </main>
 
+    <!-- The section that contains the template for all questions in the quiz -->
     <section class="question">
         <p id="question-text"></p>
         <button id="answer-a"></button>
@@ -34,6 +36,7 @@
         <p id="correct-or-wrong"></p>
     </section>
 
+    <!-- The section that is displayed right after the user either answers all questions or time runs out -->
     <section class="score-screen">
         <p id="score-text"></p>
         <form id="initials-input">
@@ -42,6 +45,7 @@
         <button id="submit-initials">Submit</button>
     </section>
 
+    <!-- Displays the previous scores -->
     <section class="highscores">
         <p>Scores</p>
         <ul id="highscores-list"></ul>
