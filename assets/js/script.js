@@ -125,7 +125,7 @@ function timer() {
     timerInterval = setInterval(function () {
         timeEl.textContent = "Time: " + secondsLeft;
 
-        if (secondsLeft === 0) {
+        if (secondsLeft <= 0) {
             clearInterval(timerInterval);
             timeEl.textContent = "Time: " + secondsLeft;
             displayScore();
