@@ -19,3 +19,5 @@ This is a quiz that is created using HTML to make the webpage, CSS to style it, 
 
 ![](assets/images/highscores-screen.JPG)
 **Above is a picture of what the webpage looks like with an entry in the scoreboard.**
+
+Link to webpage: https://zacharyjg00.github.io/Coding-Quiz/
