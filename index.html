@@ -5,11 +5,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Coding Quiz</title>
+
 </head>
 
-<body>
 
+<body>
+    <header>
+        <p class="view-highscores">View Highscores</p>
+        <p class="timer">Time: 0</p>
+    </header>
+
+    <main class="default">
+        <p class="main-heading">Miscellaneous History Challenge</p>
+        <P>This is the text to go here</P>
+        <div class="start-button">
+            <button id="start-button">Start quiz</button>
+        </div>
+    </main>
+
+    <section class="question">
+        <p id="question-text"></p>
+        <button id="answer-a"></button>
+        <button id="answer-b"></button>
+        <button id="answer-c"></button>
+        <button id="answer-d"></button>
+        <p id="correct-or-wrong"></p>
+    </section>
+
+    <section class="score-screen">
+        <p id="score-text"></p>
+        <form id="initials-input">
+            <input type="text" id="initials" value="">
+        </form>
+        <button id="submit-initials">Submit</button>
+    </section>
+
+    <section class="highscores">
+        <p>Scores</p>
+        <ul id="highscores-list"></ul>
+        <button id="default-display">Go back</button>
+        <button id="score-reset">Reset scores</button>
+    </section>
+
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
